@@ -32,3 +32,4 @@ C:\Users\Terkin\Downloads\vscoding\ascii_generator\ASCII\bin\Debug\net8.0\SixLab
 C:\Users\Terkin\Downloads\vscoding\ascii_generator\ASCII\obj\Debug\net8.0\ASCII.csproj.Up2Date
 C:\Users\Terkin\Downloads\vscoding\ascii_generator\ASCII\obj\Debug\net8.0\ASCII.genruntimeconfig.cache
 C:\Users\Terkin\Downloads\vscoding\ascii_generator\ASCII\obj\Debug\net8.0\ref\ASCII.dll
+C:\Users\Terkin\Downloads\vscoding\ascii_generator\ASCII\obj\Debug\net8.0\ASCII.sourcelink.json

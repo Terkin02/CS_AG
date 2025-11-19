@@ -11,7 +11,7 @@ class AsciiArt
     static readonly string Ramp = "@%W#$&0987654321?!ABCabc;^*:+=~/_-'.";
 
     static void Main(string[] args)
-    {
+    { 
         if (args.Length == 0)
         {   Console.WriteLine("-------------------------------------------------------------------------------------------");
             Console.WriteLine("dotnet run [путь/к/файлу. (в кавычках)] [Ширина] [true/false] [Название получаемого файла.]");
