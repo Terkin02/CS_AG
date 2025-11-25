@@ -8,7 +8,7 @@ using SixLabors.ImageSharp.Processing;
 class AsciiArt
 {
 
-    static readonly string Ramp = "@%W#$&0987654321?!ABCabc;^*:+=~/_-'.";
+    static readonly string Ramp = "@%`#$&?!*+=~/_-'.";
 
     static void Main(string[] args)
     { 
