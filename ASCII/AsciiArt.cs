@@ -36,7 +36,7 @@ class AsciiArt
             using (var image = Image.Load<Rgba32>(path))
             {   
                 // Аспект: символы выше чем ширина, поэтому масштабируем по высоте меньше — корректируем ratio;
-                double charAspect = 0.5; // символы примерно в 0.5 раз ниже ширины (или же в 2 раза выше);
+                double charAspect = 0.4; // символы примерно в 0.5 раз ниже ширины (или же в 2 раза выше);
                 int targetHeight = (int)(image.Height * (targetWidth / (double)image.Width) * charAspect);
 
                 image.Mutate(x => x.Resize(targetWidth, Math.Max(1, targetHeight)));
