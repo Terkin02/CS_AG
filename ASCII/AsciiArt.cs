@@ -23,7 +23,7 @@ class AsciiArt
         int targetWidth = args.Length >= 2 && int.TryParse(args[1], out var w) ? Math.Max(70, w) : 120;
 
         bool invert = args.Length >= 3 && bool.TryParse(args[2], out var iv) ? iv : false;
-        string ?outFile = args.Length >= 4 ? args[3];
+        string outFile = args.Length >= 4 ? args[3] : null;
 
         if (!File.Exists(path))
         {
